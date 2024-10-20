@@ -1,169 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<!DOCTYPE HTML>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-	This is an example of a sub page for each module.  It has to be replicated in each module, containing the requested contents -  artefacts, notes, reflections etc
-	Ensure you give a different title to each replica and link it to the main module page accordingly.
--->
-<html>
-	<head>
-		<title>Tasweem Beelunkhan</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="css/main.css" />
-		<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <link rel="shortcut icon" type="image/png" href="./images/AMIcon.png" />
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+  <!-- Put your site title here -->
+  <title>
+    Aneil Maharaj | Machine Learning
+  </title>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo"><span>Tasweem Beelunkhan</span></a>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
+  <meta name="description" content="Add small description of yourself">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+	<header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="https://amaharaj92.github.io" class="nav__link">Home</a></li>          
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <h1>My ePortfolio for Machine Learning.</h1>
+        <div class="header__text">
+    </div>
+      </div>
+  </header>
 
-				<!-- Menu -->
-					<nav id="menu">
-						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="About.html">About Me</a></li>
-							<li><a href="Launch Module.html">The Data Professional</a></li>
-							<li><a href="Module 2.html">Numerical Analysis</a></li>
-							<li><a href="Module 4.html">Deciphering Big Data</a></li>
-							<li><a href="Module 3.html">Visualising Data</a></li>
-							<li><a href="Module 5.html">Machine Learning</a></li>
-							<li><a href="Module 6.html">Research Methods and Professional Practice</a></li>
-							<li><a href="Project.html">Project</a></li>
-						</ul>
-					</nav>
+  <main role="main">
+  	  <h3>Unit 1</h3>
+	  
+	  <h3>Unit 2</h3>
+	  
+	  <h3>Unit 3</h3>
+	  
+	<h4><b>Covariance Pearson Correlation</b></h4>
+              <p>Pearson’s correlation is the deviation of the two values (x and y) which are multiplied, summed and divided by the total number of pairs of values minus 1 (n-1). This helps to calculate the difference between two variables and calculate whether the correlation is high or not, a score of 1 or near 1 indicates that there is a strong relationship between the 2 variables, while a score of -1 or near -1 indicates the absence or weak relationship between the 2 variables. From the code provided and following manipulation, it was found that reducing the number of points on the graph will reduce the accuracy of the mean for both data1 and data2 as there would be less values to be used to calculate the mean.</p>
+            
+	<h4><b>Linear Regression</b></h4>
+              <p>Myfunc puts the calculations in the form of a straight line y =mx+c The prediction uses the slope calculated, in this case the value of m to find the value of y. This is accomplished by using the stats.linregress which performs a linear least squares regression calculation on two arrays of values.</p>
+            
+	<h4><b>Multiple Linear Regression</b></h4>
+              <p>This technique uses variables to predict the outcome of a response variable. In this scenario, the code provided utilizes the weight of the vehicle and the volume of the displacement in order to predict the CO<sub>2</sub> output level. The dependent variables are the weight and volume while the dependent variable is CO<sub>2</sub>.</p>
+            
+	<h4><b>Polynomial Regression</b></h3>
+              <p>Polynomial regression is a form of regression analysis that allows for more complex patters or relationships to be made utilizing independent variables and also for predicting values. In this scenario for the code provided, contains two arrays for x and y values, where each value is mapped to create a curved line, with the x value indicating the time the vehicle passed and y the speed recorded at which the vehicle passed the booth. The value of r<sup>2</sup> indicates whether there is a relation and, in this scenario, a value of 0.94 indicates that there is a strong relationship in the model. This means that predictions can be made utilizing the regression model.</p>
+          
+        <h4><b>Legal, Ethical, Social & Professional Issues to Consider for Machine Learning Professionals</b></h3> 
+          <p>
+            <ul>
+		    <li>Legal - There are volumes of data available for individuals to utilize and learn from, however this does not mean that they can be used as a repository to train a data model without the publisher or author’s permission, especially those of copyrighted or protected data. There can be serious consequences associated with that from a legal background, ranging from jail time, to monetary fines, or even revoking of rights for data usage. Numerous websites and companies have incorporated a feature on their websites to prevent web scrapers from being able to collect data.</li>
+              
+		    <li>Social -  The social consequences of gathering data stem from where the data is collected, in some instances individuals are unaware that they are being recorded, and what the purpose of these recordings are. There are numerous cameras recording individuals however majority are for security reasons, however if individuals are having their likeness recorded to be used in a data model, there would be objections throughout. It is imperative that individuals are aware and give permission for this to occur.</li>
+              
+		    <li>Ethical - There are many ethical considerations to be had when dealing with machine learning, many of which stem from bias and fairness. Unfortunately the data which a model may be trained upon may have inherent bias that was subconsciously achieved. In instances this like this, the model will not function correctly and it is imperative for the model to have this bias mitigated, by using diverse datasets when training is being done. In addition to diversity in the datasets, ongoing adjustments and monitoring should be the standard to overcome these biases, such as in facial recognition software where darker skin tones have a direct relation to higher error rates.</li>
+              
+		    <li>Professional -  Professional issues which occur from the use of machine learning stem directly from the issue of individuals utilizing technology to accomplish all of, or majority of their work. In the instance of education and scholars, individuals can use machine learning, not to calculate results, but to write entire papers and submitting it as their own, unfortunately this relates to the first issue discussed, which constitutes the legal right to utilize the data, and the ethical right to use another individual’s data and pass it off as their own, otherwise known as plagiarism.</li>
+            </ul>    
+          </p>  
+            <h4><b>Machine Learning Algorithms</b></h4>
+                 <p>There are numerous machine learning algorithms which utilize various methods of creating models, including deep learning, decision trees or support vector machines. Some of which include:
+	  <ul>
+		  <li>The use of neural networks on a dataset is referred to as deep learning and is popular for image recognition, natural language processing and speech recognition. This type of network utilizes layers to split the data in order to train the model and as a result output accurate output.  The datasets which are utilized in neural networks include image datasets and audio datasets.</li>
+          	
+		  <li>The decision tree approach is a supervised learning approach which utilizes flow charts created by the computer to model the dataset on ad predict values based on the probabilities of each branch occurring from a past outcome, indicating that there must be some level of history for this to be based on. This is primarily utilized for classification and regression tasks. The datasets which are utilized for this type of machine learning would be those of stock trading or types of financial transactions.</li>
+		  
+		  <li>The support vector machine approach utilized supervised learning in order to classify binary groups or solve regression and outlier tasks. It is primarily good for text classification, image and handwriting classification, spam detection and gene expression analysis to give a few examples. Their effectiveness stems from the finding the line that separates datapoints to create the classification groups</li>  
+	  </ul> 
+  	  </p>
+	  
+	  <h2>Unit 4</h2>
+          <h2>Unit 5</h2>
+          <h2>Unit 6</h2>
+          <h2>Unit 7</h2>
+          <h2>Unit 8</h2>
+          <h2>Unit 9</h2>
+          <h2>Unit 10</h2>
+          <h2>Unit 11</h2>
+          <h2>Unit 12</h2>
+  </main>
 
-				<!-- Main -->
-					<div id="main" class="alt">
+  <!-- ***** Contact ***** -->
 
-						<!-- One -->
-							<section id="one">
-								<div class="inner">
-									<header class="major">
-										<h1> &#10021; Unit 1 - Introduction to Machine Learning (ML) </h1>
-										<h3>Outcomes from the Team Exercises and activites</h3>
-									</header>
+  <section class="contact" id="contact">
+    <div class="row">
+    </div>
+  </section>
 
-												<p>Correlation signifies the strength and direction of a linear relationship between two variables, offering insights into feature interdependencies, a pivotal aspect in feature engineering and selection. On the other hand, regression provides a framework to predict the output of a variable based on one or more inputs, making it central to predictive modelling in machine learning (Rizwan, 2020).</p>
-												
-												<p>A way to assess the direction and strength of a linear relationship between two quantitative variables is through correlation. The range of the value is from -1 to 1. A score around 1 denotes a significant positive correlation, meaning that as one variable rises, so does the likelihood that the other will as well. As one variable increases, the other tends to decrease, therefore a number close to -1 denotes a high negative connection (Nair et al, 2023).</p>
-												
-												<p>It is used in machine learning for:</p>
-												<ul>
-												    <li><b>Feature Selection:</b> Correlation matrices are often used to select relevant features. If two features are highly correlated, they carry redundant information. One of them can be dropped to reduce dimensionality.</li>
-												    <li><b>Detecting Multicollinearity:</b> In linear regression models, multicollinearity can distort the prediction. Correlation analysis helps in detecting such scenarios.</li>
-												    <li><b>Understanding Relationships:</b> Before building complex models, correlation analysis gives a quick overview of relationships between variables.</li>
-												</ul>
-												
+  <!-- ***** Footer ***** -->
 
-												<p>Regression is used to model and analyse relationships between variables. It offers a framework for forecasting output based on one or more inputs. It is extensively used for prediction and prognostication, and its use has substantial overlap with the domain of machine learning (Bansal et al 2021).</p>
-												
-												<p>Types:</p>
-												<ul>
-												    <li><b>Linear Regression:</b> Assumes that the dependent and independent variables have a linear relationship.</li>
-												    <li><b>Logistic Regression:</b> This method is used to solve binary classification problems.</li>
-												    <li><b>Polynomial Regression:</b> This method captures non-linear correlations by using polynomial characteristics.</li>
-												</ul>
-												
-												<p>It is used in machine learning for:</p>
-												<ul>
-												    <li><b>Predictive Modelling:</b> The primary application is forecasting where future values are predicted based on historical data.</li>
-												    <li><b>Understanding Feature Importance:</b> The significance of features in formulating predictions can be revealed by regression coefficients.</li>
-												    <li><b>Evaluating Trends:</b> Regression models can detect and highlight underlying trends in data.</li>
-												</ul>
-									
-									 <h3> E-Portfolio activity</h3>
-												
-												<p><b>Example 1:</b></p>
-												<p>The Covariance measures the directional relationship between the two variable's deviations from their mean and the Pearson's correlation coefficient measures the linear relationship between two datasets.</p>
-												<p><img src="images/ML_Unit3_P1.png" alt="Covariance Visualization"> <images/ML_Unit3_P2.png" alt="Pearson's Correlation Visualization"></p>
-												<p>In this case, a coefficient of -0.832 suggests a strong negative linear relationship between car weight and mpg. As the weight of a car increases, its fuel efficiency (mpg) tends to decrease.</p>
-												<h4>Interpretation:</h4>
-												<p>The results indicate that there's a strong inverse relationship between the weight of a car and its fuel efficiency (mpg). Heavier cars in the dataset generally have lower mpg, which implies that they are less fuel-efficient. This relationship is both visually evident (from the scatter plot) and statistically significant (from the Pearson's correlation coefficient). The negative covariance further supports this inverse relationship.</p>
-												
-												<p><b>Example 2:</b></p>
-												<p>The linregress function from scipy.stats is used to perform linear regression on the x (weight) and y (mpg) datasets as shown below:</p>
-												<p><img src="images/ML_Unit3_P3.png" alt="Linear Regression 1"> <images/ML_Unit3_P4.png" alt="Linear Regression 2"></p>
-												<p>The code predicts the miles per gallon (mpg) of a car given that its weight is 1000 pounds, based on the linear relationship between mpg and weight. As shown above, the mpg is 38.6.</p>
-												
-												<p><b>Example 3:</b></p>
-												<p>Now A new linear regression model, regr, is created using linear_model.LinearRegression(). The fit method of the regr model is then called, with X and y as arguments, to train the model on the dataset. The values of the columns weight and displacement from the DataFrame are set as predictor variables and stored in x and the mpg column from the DataFrame is set as the target variable and stored in y.</p>
-												<p>The trained model is used to predict the mpg for a car with a weight of 3000 pounds and a displacement of 250 cubic inches. The results show that for a car with a displacement of 250.0 cubic inches and a weight of 3000 pounds, the predicted miles per gallon (mpg) is approximately 22.4 mpg.</p>
-												<p>Now we used the regr.coef_ to output the predictor variables' coefficients. It represents the change in the dependent variable (mpg) for a one-unit change in the predictor (mpg), while keeping all other predictors constant.</p>
-												<p><img src="images/ML_Unit3_P5.png" alt="Predictor Variables' Coefficients"></p>
-												<p>The coefficients for weight and displacement indicate that as a car's weight increases, its fuel efficiency decreases by approximately 0.0058 units, assuming the engine displacement remains unchanged. Conversely, as the car's displacement increases by 1 cubic inch, its fuel efficiency decreases by about 0.0164 units, assuming the weight remains constant. These negative values reinforce the inverse relationships between these predictors and the target variable (mpg).</p>
-												<p>Then, we changed the weight to 3500 pounds and displacement of 300 cubic inches to predict the mpg (miles per gallon) for a car using the trained linear regression model regr.</p>
-												<p><img src="images/ML_Unit3_P6.png" alt="Linear Regression Model Result 3"></p>
-												<p>The results showed that the predicted miles per gallon (mpg) is approximately 18.70 mpg.</p>
-												
-												<p><b>Example 4:</b></p>
-												<p>A polynomial regression is performed on the mpg and weight columns of the auto-mpg.csv dataset and then a scatter plot with the polynomial regression curve is used to visualize the results.</p>
-												<p>Here's the plot showing the relationship between weight and mpg with a third-degree polynomial regression fit.</p>
-												<p><img src="images/ML_Unit3_P7.png" alt="Polynomial Regression Visualization 1"> <img src="images/ML_Unit3_P8.png" alt="Polynomial Regression Visualization 2"></p>
-												<p>The blue dots represent the actual data points from the auto-mpg.csv dataset, while the red curve is the polynomial fit. As the weight of the car increases, the miles per gallon (mpg) tends to decrease, which is consistent with our expectations. The polynomial fit captures this trend and provides a more flexible representation compared to a straight-line fit.</p>
-												<p>The code calculates the R2 score, indicating the proportion of the dependent variable's variance predictable from the independent variable, assessing the model's ability to replicate observed outcomes.</p>
-												<p><img src="images/ML_Unit3_P9.png" alt="R2 Score"></p>
-												<p>The R 2 score for this third-degree polynomial regression model is approximately 0.7148. This means that the model explains about 71.48% of the variance in the mpg values.</p>
-												<p>The code below will predict the mpg (miles per gallon) for a car with a weight of 1700 based on the polynomial regression model ‘mymodel’.</p>
-												<p><img src="images/ML_Unit3_P10.png" alt="Polynomial Regression Prediction"></p>
-												<p>For a car weight of 1700 pounds, the predicted miles per gallon (mpg) using our polynomial regression model is approximately 35.79 mpg.</p>
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+      </p>
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+    </div>
+  </footer>
 
-									        <h3 style="color: #CFA7F6;">Reflection & Practical Use:</h3>
-										<p>Machine learning involves understanding data and statistics, loading data, exploring its characteristics, choosing a model, training the model, and evaluating its performance. The choice of model depends on the data's nature and variable relationships. Striking a balance is crucial, as polynomial regression can fit non-linear data better but can overfit if too high. Regularly evaluating model performance and understanding metrics like R<sup>2</sup> score is essential. In the context of this unit, we traversed various aspects of machine learning, from data handling to model selection, fitting, and evaluation. The tools and methodologies used here are foundational to many machine learning tasks.</p>
-									
-									       <h3 style="color: #CFA7F6;">References:</h3>
-												<ol>
-												    <li>Rizwan, Mohd.A. (2020) ‘Correlation and regression’, <i>Machine Learning and Big Data</i>, pp. 53–69. <a href="https://doi.org/10.1002/9781119654834.ch3" target="_blank">doi:10.1002/9781119654834.ch3</a>.</li>
-												    <li>Ali, P. and Younas, A. (2021) ‘Understanding and interpreting regression analysis’, <i>Evidence Based Nursing</i>, 24(4), pp. 116–118. <a href="https://doi.org/10.1136/ebnurs-2021-103425" target="_blank">doi:10.1136/ebnurs-2021-103425</a>.</li>
-												    <li>Bansal, U. et al. (2021) ‘Empirical analysis of regression techniques by house price and salary prediction’, <i>IOP Conference Series: Materials Science and Engineering</i>, 1022(1), p. 012110. <a href="https://doi.org/10.1088/1757-899x/1022/1/012110" target="_blank">doi:10.1088/1757-899x/1022/1/012110</a>.</li>
-												    <li>Maulud, D. and Abdulazeez, A.M. (2020) ‘A review on linear regression comprehensive in machine learning’, <i>Journal of Applied Science and Technology Trends</i>, 1(4), pp. 140–147. <a href="https://doi.org/10.38094/jastt1457" target="_blank">doi:10.38094/jastt1457</a>.</li>
-												    <li>Nair, N.S. and Ganapathy, S. (2023) ‘An overview of correlation and regression methods in medical research – an ophthalmologic perspective’, <i>Kerala Journal of Ophthalmology</i>, 35(1), pp. 103–108. <a href="https://doi.org/10.4103/kjo.kjo_32_23" target="_blank">doi:10.4103/kjo.kjo_32_23</a>.</li>
-												    <li>Rizwan, Mohd.A. (2020) ‘Correlation and regression’, <i>Machine Learning and Big Data</i>, pp. 53–69. <a href="https://doi.org/10.1002/9781119654834.ch3" target="_blank">doi:10.1002/9781119654834.ch3</a>.</li>
-												    <li>Yadav, R.S. (2022) ‘A study of relationship to absentees and score using Machine Learning Method: A case study of linear regression analysis’, <i>IARS International Research Journal</i>, 12(01), pp. 33–39. <a href="https://doi.org/10.51611/iars.irj.v12i01.2022.186" target="_blank">doi:10.51611/iars.irj.v12i01.2022.186</a>.</li>
-												</ol>
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
 
-
-										<p></p>
-									
-										<p></p><a href="UNIT3 -PART 1.ipynb" download>Click to download notebook for EXERCISE 1 </a><p>
-										<p></p><a href="UNIT3 -PART 2.ipynb" download>Click to download notebook for EXERCISE 2 </a><p>
-										<p></p><a href="UNIT3 -PART 3.ipynb" download>Click to download notebook for EXERCISE 3 </a><p>
-										<p></p><a href="UNIT3 -PART 4.ipynb" download>Click to download notebook for EXERCISE 4 </a><p>
-								</div>
-							</section>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-
-							<ul class="copyright">
-								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="js/jquery.min.js"></script>
-			<script src="js/jquery.scrolly.min.js"></script>
-			<script src="js/jquery.scrollex.min.js"></script>
-			<script src="js/browser.min.js"></script>
-			<script src="js/breakpoints.min.js"></script>
-			<script src="js/util.js"></script>
-			<script src="js/main.js"></script>
-
-	</body>
 </html>
